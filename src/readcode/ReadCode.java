@@ -160,7 +160,7 @@ public class ReadCode {
     public static void main(String[] args) throws IOException {
         ReadFile frame = new ReadFile();
         System.out.println();
-        ImageIcon img = new ImageIcon("C:\\Users\\AnX\\Documents\\NetBeansProjects\\ReadCode\\src\\readcode\\images\\icons8_Calculator_48px_1.png");
+        ImageIcon img = new ImageIcon("calculaor icon url here");
         new ReadFile().setIconImage(img.getImage());
         frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
